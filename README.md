@@ -6,6 +6,10 @@ Not everything we want comes via Brid.gy, so we can directly query services to f
 
 ## Twitter
 
+**Requires [Twitter gem](https://github.com/sferik/twitter):**
+
+	gem install twitter
+
 The `get_twitter_webmentions.rake` rakefile will search for your posts and pages via the Twitter Search API. You will need to [register your site as an app](https://apps.twitter.com/app/new) and acquire the necessary keys. Store them in the following environment variables:
 
 * `TWITTER_CONSUMER_KEY`
